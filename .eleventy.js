@@ -16,10 +16,8 @@ module.exports = function(eleventyConfig) {
       data: "_data",
       output: "_site"
     },
-    // PENTING: Tambahkan baris ini untuk memberitahu Eleventy
-    // bahwa situs berada di dalam sub-folder /rizkygadai/
-    pathPrefix: "/rizkygadai/",
-
+    // pathPrefix sudah dihapus
+    
     // Template engine
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk"
