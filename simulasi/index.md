@@ -5,7 +5,7 @@ layout: base.njk
 <div class="container my-5">
     <div class="card p-4 p-md-5 border-0 shadow-lg">
         <div class="text-center mb-5">
-            <img src="/rizkygadai/assets/img/illustrasi-form.png" class="img-fluid mb-4" alt="Ilustrasi" style="max-height: 200px;">
+            <img src="{{ '/assets/img/illustrasi-form.png' | url }}" class="img-fluid mb-4" alt="Ilustrasi" style="max-height: 200px;">
             <h2 class="fw-bold">Pengajuan Simulasi</h2>
             <hr class="mx-auto" style="width: 50px;">
         </div>
