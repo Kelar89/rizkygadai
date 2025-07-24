@@ -4,9 +4,9 @@ layout: base.njk
 ---
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active"><img src="{{ '/assets/img/banner1.png' | url }}" class="d-block w-100" alt="Banner 1"></div>
-    <div class="carousel-item"><img src="{{ '/assets/img/banner2.png' | url }}" class="d-block w-100" alt="Banner 2"></div>
-    <div class="carousel-item"><img src="{{ '/assets/img/banner3.png' | url }}" class="d-block w-100" alt="Banner 3"></div>
+    <div class="carousel-item active"><img src="{{ '/assets/img/banner1.jpg' | url }}" class="d-block w-100" alt="Banner 1"></div>
+    <div class="carousel-item"><img src="{{ '/assets/img/banner2.jpg' | url }}" class="d-block w-100" alt="Banner 2"></div>
+    <div class="carousel-item"><img src="{{ '/assets/img/banner3.jpg' | url }}" class="d-block w-100" alt="Banner 3"></div>
   </div>
 </div>
 <div class="container text-center py-5">
