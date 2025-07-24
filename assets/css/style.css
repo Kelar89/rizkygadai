@@ -190,3 +190,16 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; }
       text-align: center !important;
   }
 }
+/* ... (semua kode CSS dari awal sampai bagian hero-mitra) ... */
+
+/* === Gaya Halaman: Mitra === */
+.hero-mitra {
+  /* Diubah dari path absolut '/assets/...' menjadi path relatif '../...' */
+  background-image: url('../img/belakang mobil.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+/* ... (sisa kode CSS Anda tidak perlu diubah) ... */
