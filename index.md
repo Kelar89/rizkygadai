@@ -5,13 +5,13 @@ layout: base.njk
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/rizkygadai/assets/img/banner1.jpg" class="d-block w-100" alt="Banner Cepat & Mudah">
+      <img src="/rizkygadai/assets/img/banner1.png" class="d-block w-100" alt="Banner Cepat & Mudah">
     </div>
     <div class="carousel-item">
-      <img src="/rizkygadai/assets/img/banner2.jpg" class="d-block w-100" alt="Banner Bunga Rendah">
+      <img src="/rizkygadai/assets/img/banner2.png" class="d-block w-100" alt="Banner Bunga Rendah">
     </div>
     <div class="carousel-item">
-      <img src="/rizkygadai/assets/img/banner3.jpg" class="d-block w-100" alt="Banner Jaminan Aman">
+      <img src="/rizkygadai/assets/img/banner3.png" class="d-block w-100" alt="Banner Jaminan Aman">
     </div>
   </div>
 </div>
@@ -86,14 +86,32 @@ layout: base.njk
         <h2 class="fw-bolder mb-5">Persyaratan</h2>
         <div class="row g-4 justify-content-center">
             <div class="col-md-6 col-lg-5">
-                <div class="card-persyaratan mb-4"><img src="/rizkygadai/assets/img/ic_ktp.png" alt="KTP"><p>KTP Aktif</p></div>
-                <div class="card-persyaratan mb-4"><img src="/rizkygadai/assets/img/ic_slipgaji.png" alt="Slip Gaji"><p>Slip Gaji</p></div>
-                <div class="card-persyaratan"><img src="/rizkygadai/assets/img/ic_tabungan.png" alt="Rekening"><p>Rekening Tabungan</p></div>
+                <div class="card-persyaratan mb-4">
+                    <img src="/rizkygadai/assets/img/ic_ktp.png" alt="KTP">
+                    <p>KTP Aktif</p>
+                </div>
+                <div class="card-persyaratan mb-4">
+                    <img src="/rizkygadai/assets/img/ic_slipgaji.png" alt="Slip Gaji">
+                    <p>Slip Gaji</p>
+                </div>
+                <div class="card-persyaratan">
+                    <img src="/rizkygadai/assets/img/ic_tabungan.png" alt="Rekening">
+                    <p>Rekening Tabungan</p>
+                </div>
             </div>
             <div class="col-md-6 col-lg-5">
-                <div class="card-persyaratan mb-4"><img src="/rizkygadai/assets/img/ic_listrik.png" alt="Listrik"><p>Rekening Listrik</p></div>
-                <div class="card-persyaratan mb-4"><img src="/rizkygadai/assets/img/ic_stnk.png" alt="STNK"><p>STNK BPKB</p></div>
-                <div class="card-persyaratan"><img src="/rizkygadai/assets/img/ic_npwp.png" alt="NPWP"><p>NPWP</p></div>
+                <div class="card-persyaratan mb-4">
+                    <img src="/rizkygadai/assets/img/ic_listrik.png" alt="Listrik">
+                    <p>Rekening Listrik</p>
+                </div>
+                <div class="card-persyaratan mb-4">
+                    <img src="/rizkygadai/assets/img/ic_stnk.png" alt="STNK">
+                    <p>STNK BPKB</p>
+                </div>
+                <div class="card-persyaratan">
+                    <img src="/rizkygadai/assets/img/ic_npwp.png" alt="NPWP">
+                    <p>NPWP</p>
+                </div>
             </div>
         </div>
         <p class="mt-5">Semua Persyaratan Sudah Terpenuhi?</p>
