@@ -1,48 +1,35 @@
-# Nama workflow yang akan muncul di tab "Actions" di GitHub
 name: Deploy Eleventy Site to GitHub Pages
 
-# Kapan workflow ini dijalankan
 on:
-  # Dijalankan setiap kali ada 'push' ke branch 'main'
   push:
     branches:
       - main
-  # Memungkinkan Anda menjalankan workflow ini secara manual dari tab Actions
   workflow_dispatch:
 
-# Konfigurasi pekerjaan (jobs) yang akan dilakukan
 jobs:
   build-and-deploy:
-    # Menggunakan sistem operasi terbaru dari Ubuntu
     runs-on: ubuntu-latest
-
-    # Izin yang diperlukan agar workflow bisa menulis ke branch gh-pages
     permissions:
       contents: write
-
-    # Langkah-langkah yang akan dieksekusi
     steps:
-      # 1. Mengunduh kode dari repository Anda
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2. Menyiapkan lingkungan Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # Menggunakan Node.js versi 18
+          node-version: '18'
 
-      # 3. Menginstall dependensi (seperti Eleventy)
       - name: Install dependencies
         run: npm install
 
-      # 4. Membangun situs statis Eleventy
       - name: Build the site
-        run: npm run build # Perintah ini akan membuat folder '_site'
+        run: npm run build
 
-      # 5. Mendeploy hasil build ke branch 'gh-pages'
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site # Folder yang akan di-deploy
+          publish_dir: ./_site
+          # OPSI BARU: Memaksa pembuatan ulang branch deploy dari nol
+          force_orphan: true
