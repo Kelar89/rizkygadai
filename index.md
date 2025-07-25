@@ -1,5 +1,5 @@
 ---
-title: Pinjaman Dana Cepat Tanpa Survey
+title: Pinjaman Dana Cepat Tanpa Survey 
 layout: base.njk
 ---
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
