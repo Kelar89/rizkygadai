@@ -1,8 +1,0 @@
-# Hasil build Eleventy
-_site
-
-# Dependensi Node.js
-node_modules
-
-# File environment (jika ada)
-.env
