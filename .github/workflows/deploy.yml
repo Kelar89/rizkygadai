@@ -28,8 +28,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build with Eleventy
-        # Perintah build diubah untuk secara eksplisit menambahkan path prefix
-        run: npx @11ty/eleventy --pathprefix=/rizkygadai
+        # Perintah ini secara otomatis menambahkan /rizkygadai ke semua link saat build di server
+        run: npx @11ty/eleventy --pathprefix=rizkygadai
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
