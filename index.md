@@ -4,11 +4,18 @@ layout: base.njk
 ---
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active"><img src="{{ '/assets/img/banner1.png' | url }}" class="d-block w-100" alt="Banner 1"></div>
-    <div class="carousel-item"><img src="{{ '/assets/img/banner2.png' | url }}" class="d-block w-100" alt="Banner 2"></div>
-    <div class="carousel-item"><img src="{{ '/assets/img/banner3.png' | url }}" class="d-block w-100" alt="Banner 3"></div>
+    <div class="carousel-item active">
+      <img src="{{ '/assets/img/banner1.png' | url }}" class="d-block w-100" alt="Banner Cepat & Mudah">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/assets/img/banner2.png' | url }}" class="d-block w-100" alt="Banner Bunga Rendah">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/assets/img/banner3.png' | url }}" class="d-block w-100" alt="Banner Jaminan Aman">
+    </div>
   </div>
 </div>
+
 <div class="container text-center py-5">
     <img src="{{ '/assets/img/ic_luas.png' | url }}" alt="Butuh Dana Cepat" class="mb-3" style="height: 80px;">
     <h2 class="fw-bolder">Butuh Dana Cepat?</h2>
@@ -19,6 +26,7 @@ layout: base.njk
         <a href="https://wa.me/6285894448143" class="btn btn-success rounded-pill m-2 px-4">Hubungi Kami</a>
     </div>
 </div>
+
 <div class="section-bg-light py-5">
     <div class="container">
         <div class="row align-items-center">
@@ -37,6 +45,7 @@ layout: base.njk
         </div>
     </div>
 </div>
+
 <div class="section-cta-alt text-white py-5">
     <div class="container">
         <div class="row align-items-center">
@@ -53,6 +62,7 @@ layout: base.njk
         </div>
     </div>
 </div>
+
 <div class="section-persyaratan text-white text-center py-5">
     <div class="container">
         <h2 class="fw-bolder mb-5">Persyaratan</h2>
@@ -72,6 +82,7 @@ layout: base.njk
         <a href="{{ '/simulasi/' | url }}" class="btn btn-outline-light rounded-pill px-4">Ajukan Sekarang</a>
     </div>
 </div>
+
 <div class="container py-5">
     <div class="text-center mb-5">
         <h2 class="fw-bolder">Tentang Kami</h2>
@@ -86,6 +97,7 @@ layout: base.njk
         <div class="col-md-6 col-lg-4 d-flex"><div class="icon-box-feature me-3"><img src="{{ '/assets/img/ic_notipping.png' | url }}"></div><div><h6 class="fw-bold">No Tipping & Fee</h6><p class="text-muted small">Semua proses dilakukan profesional & transparan</p></div></div>
     </div>
 </div>
+
 <div class="section-bg-light py-5 text-center">
     <div class="container">
         <h3 class="fw-bolder mb-5">Partnership</h3>
