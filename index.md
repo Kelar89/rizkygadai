@@ -3,17 +3,17 @@ title: Pinjaman Dana Cepat Tanpa Survey
 layout: base.njk
 ---
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="{{ '/assets/img/banner1.png' | url }}" class="d-block w-100" alt="Banner Cepat & Mudah">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ '/assets/img/banner1.png' | url }}" class="d-block w-100" alt="Banner Cepat & Mudah">
+        </div>
+        <div class="carousel-item">
+            <img src="{{ '/assets/img/banner2.png' | url }}" class="d-block w-100" alt="Banner Bunga Rendah">
+        </div>
+        <div class="carousel-item">
+            <img src="{{ '/assets/img/banner3.png' | url }}" class="d-block w-100" alt="Banner Jaminan Aman">
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/banner2.png' | url }}" class="d-block w-100" alt="Banner Bunga Rendah">
-    </div>
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/banner3.png' | url }}" class="d-block w-100" alt="Banner Jaminan Aman">
-    </div>
-  </div>
 </div>
 
 <div class="container text-center py-5">
@@ -115,7 +115,7 @@ layout: base.njk
             <div class="col-6 col-sm-4 col-md-2"><img src="{{ '/assets/img/logos/taf.png' | url }}" class="img-fluid partnership-logo" alt="logo TAF"></div>
         </div>
         <hr class="my-5">
-        <h5 class="fw-bold">Partner Kami Terdaftar Dan Diawasi Oleh:</h5>
+        <h5 class="fw-bold">Partner Kami Terdaftar Dan Diawas Oleh:</h5>
         <img src="{{ '/assets/img/logos/ojk.png' | url }}" alt="Logo OJK" style="max-height: 80px;" class="mt-3">
     </div>
 </div>
