@@ -18,7 +18,7 @@ layout: base.njk
               <div class="card-body p-4">
                   <div class="row g-4">
                       <div class="col-lg-4 text-center">
-                          <img src="{{ '/assets/img/gift-voucher.png' | url }}" class="img-fluid rounded" alt="Voucher Hadiah">
+                          <img src="{{ '/assets/img/gift-voucher.jpg' | url }}" class="img-fluid rounded" alt="Voucher Hadiah">
                       </div>
                       <div class="col-lg-8">
                           <div class="card promo-card-item mb-3">

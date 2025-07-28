@@ -58,12 +58,12 @@ layout: base.njk
         </div>
     </section>
 
-    <section class="jadi-mitra-mudah py-5">
+   <section class="jadi-mitra-mudah py-5">
         <div class="row align-items-center">
             <div class="col-md-7">
                 <h2 class="fw-bolder">Jadi Mitra Itu Mudah</h2>
                 <p class="text-muted">Kini menjadi mitra solusi keuangan tidak perlu sulit, cukup gunakan HP Anda untuk mendaftarkan nasabah yang ingin Anda referensikan. Anda akan mendapatkan komisi jika nasabah yang Anda Referensikan disetujui oleh RIZKYGADAI.</p>
-                <a href="#" class="btn btn-primary rounded-pill px-4 mt-3">Join Mitra</a>
+                <a href="https://wa.me/6282196004768?text=Halo%20Admin%20RizkyGadai%2C%20saya%20tertarik%20untuk%20bergabung%20menjadi%20mitra.%20Mohon%20informasinya%2C%20terima%20kasih." class="btn btn-primary rounded-pill px-4 mt-3" target="_blank">Join Mitra</a>
             </div>
             <div class="col-md-5 text-center">
                 <img src="{{ '/assets/img/mitra-phone.png' | url }}" alt="Jadi Mitra Mudah" class="img-fluid">
