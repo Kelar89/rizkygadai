@@ -6,17 +6,16 @@ layout: base.njk
 <div id="heroCarouselNew" class="carousel slide hero-slider-new" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ '/assets/img/banner1.png' | url }}" class="d-block w-100" alt="Banner Cair Tinggi">
-      </div>
+      <img src="{{ '/assets/img/banner1-desktop.png' | url }}" class="d-block w-100 banner-desktop" alt="Banner 1">
+    </div>
     <div class="carousel-item">
-      <img src="{{ '/assets/img/banner2.png' | url }}" class="d-block w-100" alt="Banner Bunga Rendah">
-       </div>
+      <img src="{{ '/assets/img/banner2-desktop.png' | url }}" class="d-block w-100 banner-desktop" alt="Banner 2">
+    </div>
     <div class="carousel-item">
-      <img src="{{ '/assets/img/banner3.png' | url }}" class="d-block w-100" alt="Banner Jaminan Aman">
-       </div>
+      <img src="{{ '/assets/img/banner3-desktop.png' | url }}" class="d-block w-100 banner-desktop" alt="Banner 3">
+    </div>
   </div>
 </div>
-
 <div class="main-content-wrapper">
   <div class="container">
     <section class="text-center py-5">
